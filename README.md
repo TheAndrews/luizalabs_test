@@ -34,45 +34,45 @@ usuario super previamente cadastrado via migration
 ### API da aplicação
 ```shell 
 http://localhost:8000/employee
-    POST /employee
-    body
-    {
-        'name': 'string',
-        'email': 'string',
-        'department': 'string'
-    }
+POST /employee
+body
+{
+    'name': 'string',
+    'email': 'string',
+    'department': 'string'
+}
 
-    GET /employee
-    response
-    [{
-        'name': 'string',
-        'email': 'string',
-        'department': 'string'
-    }]
+GET /employee
+response
+[{
+    'name': 'string',
+    'email': 'string',
+    'department': 'string'
+}]
 
-    GET /employee/<id>
-    response
-    {
-        'name': 'string',
-        'email': 'string',
-        'department': 'string'
-    }
+GET /employee/<id>
+response
+{
+    'name': 'string',
+    'email': 'string',
+    'department': 'string'
+}
 
-    PUT /employee/<id>
-    body
-    {
-        'name': 'string',
-        'email': 'string',
-        'department': 'string'
-    }
-    response
-    {
-        'name': 'string',
-        'email': 'string',
-        'department': 'string'
-    }
+PUT /employee/<id>
+body
+{
+    'name': 'string',
+    'email': 'string',
+    'department': 'string'
+}
+response
+{
+    'name': 'string',
+    'email': 'string',
+    'department': 'string'
+}
 
-    DELETE /employee/<id>
+DELETE /employee/<id>
 ```
 
 
