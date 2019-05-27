@@ -16,7 +16,18 @@ python labs_test/manage.py migrate
 docker-compose up -d
 ```
 
-### Rotas possíveis da aplicação
+### Para acessar o Admin:
+```shell 
+http://localhost:8000/admin
+
+login: admin
+senha: admin
+
+usuario super previamente cadastrado via migration
+
+```
+
+### API da aplicação
 ```shell 
 http://localhost:8000/employee
     POST /employee
