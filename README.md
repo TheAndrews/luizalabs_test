@@ -1,4 +1,4 @@
-# luizalabs_test
+# desafio employee manager
 
 Tecnologias utilizadas:
 Python 3.7,
