@@ -1,9 +1,13 @@
 # luizalabs_test
 
-tecnologias utilizadas
-Python 3.7
-Django 2.2.1
-Django rest framework
+Tecnologias utilizadas:
+Python 3.7,
+Django 2.2.1,
+Django rest framework,
+PostgreSQL,
+Docker,
+Docker-Compose
+
 
 ### Para rodar os testes da aplicação:
 ```shell 
